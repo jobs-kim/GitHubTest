@@ -15,6 +15,7 @@ struct GitHubTestApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            
         }
     }
 }
